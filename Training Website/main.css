@@ -1,0 +1,123 @@
+h1.display-4, .lead {
+    color: #009999;
+    text-align: center;
+}
+
+.display-4 {
+    font-size: 60px;
+}
+
+.day-1, .day-2 {
+/*    height: 150px;*/
+    margin: auto;
+}
+
+.day-1, .day-2, .flashcard1, .flashcard2, .flashcard3 {
+    text-align: center;
+    margin: auto;
+}
+
+
+.flashcard1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+}
+
+.flashcard1 .card {
+    margin-bottom: .5rem;
+}
+
+
+.hoursOfOperation, .managerTable {
+    width: 50%;
+    margin: auto;
+}
+
+.stepsOfServiceList {
+    max-width: 30%;
+    margin: auto
+}
+
+.day2header, .day1header {
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+/*    align-items: center;*/
+}
+
+.trainingday {
+    display: flex;
+    align-items: stretch;
+}
+
+.day-1, .day-2 {
+    margin: 4rem 1rem 1rem 0;
+    background-color: #009999;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.card.section2, .card.section3, .card.section4, .card.section5, .card.section6, .card.section7 {
+    display: flex;    
+    width: 300px;
+    height: 250px;
+    margin: .5rem;
+}
+
+.cocktail-card {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: .5rem .2rem;
+    padding: .5rem;
+/*    text-align: center;*/
+}
+
+.appetizer-wrapper, .soupAndSaladWrapper, .robataWrapper  {
+    text-align: center;
+    padding: 1.2rem;
+/*    text-decoration: underline;*/
+    background-color: #99ccff;
+    margin: 1rem;
+}
+
+.card-body, .card-text {
+    text-align: center;
+}
+
+card.card-body2 {
+    text-align: left;
+}
+
+.cocktail-btns {
+    text-align: center;
+}
+
+
+.flashcard2 .card, .flashcard3 .card, .picbox {
+    width: 300px;
+    margin: 0.5rem;
+}
+
+.flashcard2, .flashcard3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.spiel-wrapper {
+    padding: 25px;
+}
