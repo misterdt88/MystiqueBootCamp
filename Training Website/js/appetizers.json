@@ -1,0 +1,14 @@
+{
+  "appetizers": [
+    {
+      "name": "Wood fired pizza",
+      "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/wOfiXgeRkXBiZBE7lBecPMfuLVA=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/3XIELVBJWII6NNXSMTE4NPM4AE.jpg",
+      "dataTarget": "#calamariModal"
+    },
+    {
+      "name": "'Salt and Pepper' Calamari",
+      "image": "https://www.fifteenspatulas.com/wp-content/uploads/2016/02/Fried-Calamari-Fifteen-Spatulas-3-640x959.jpg",
+      "dataTarget": "#calamariModal"
+    }
+  ]
+}
