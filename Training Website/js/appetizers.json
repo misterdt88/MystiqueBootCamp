@@ -34,6 +34,21 @@
             "name": "Scallion Pancake",
             "image": "https://www.thespruceeats.com/thmb/xCalM6YdKKPxWr6TksLahxrAdnY=/4288x2412/smart/filters:no_upscale()/korean-pancake-with-scallions-2118966-10-5b3f6f1c46e0fb0037076d4f.jpg",
             "dataTarget": "#pancake"
+        },
+        {
+            "name": "Blistered Shishito Peppers",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#shishitoModal"
+        },
+        {
+            "name": "XO Jumbo Shrimp",
+            "image": "https://i.pinimg.com/originals/ca/92/7b/ca927b7bd2f9930e0620af86c44ad472.jpg",
+            "dataTarget": "xoShrimpModal"
+        },
+        {
+            "name": "Crispy Lobster Tempura",
+            "image": "https://i.ytimg.com/vi/2tCWtcoGpCM/maxresdefault.jpg",
+            "dataTarget": "#lobsterTempuraModal"
         }
         
     ]
