@@ -1,0 +1,56 @@
+{
+    "appetizers": [
+        {
+            "name": "'Salt and Pepper' Calamari",
+            "image": "https://cdn-image.foodandwine.com/sites/default/files/styles/4_3_horizontal_-_1200x900/public/calamari.jpg?itok=vNUZfHNl",
+            "dataTarget": "#calamariModal"
+        },
+        {
+            "name": "Uni Toast",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/a6/8e/2a/uni-toast-1200-yen.jpg",
+            "dataTarget": "#uniToastModal"
+        },
+        {
+            "name": "Spiced Edamame",
+            "image": "https://healthynibblesandbits.com/wp-content/uploads/2019/09/Spicy-Roasted-Edamame-FF.jpg",
+            "dataTarget": "#spicyEdamameModal"
+        },
+        {
+            "name": "Wagyu Beef Gyoza",
+            "image": "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2014/2/7/0/CC_pork-gyoza-with-ginger-dipping-sauce-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1391794580270.jpeg",
+            "dataTarget": "#gyozaModal"
+        },
+        {
+            "name": "Dashi Wild Mushroom",
+            "image": "https://www.rachelkhoo.com/wp-content/uploads/2015/01/Rachel-Khoo-mushroom-broth.jpg",
+            "dataTarget": "#mushroomModal"
+        },
+        {
+            "name": "Crispy Peking Ravioli",
+            "image": "https://wgbh.brightspotcdn.com/dims4/default/45eda31/2147483647/strip/true/crop/1200x800+0+0/resize/854x569!/quality/70/?url=http%3A%2F%2Fcraving-boston.s3.amazonaws.com%2Fproduction%2Fimg_0893.jpg",
+            "dataTarget": "#ravioliModal"
+        },
+        {
+            "name": "Scallion Pancake",
+            "image": "https://www.thespruceeats.com/thmb/xCalM6YdKKPxWr6TksLahxrAdnY=/4288x2412/smart/filters:no_upscale()/korean-pancake-with-scallions-2118966-10-5b3f6f1c46e0fb0037076d4f.jpg",
+            "dataTarget": "#pancake"
+        },
+        {
+            "name": "Blistered Shishito Peppers",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#shishitoModal"
+        },
+        {
+            "name": "XO Jumbo Shrimp",
+            "image": "https://i.pinimg.com/originals/ca/92/7b/ca927b7bd2f9930e0620af86c44ad472.jpg",
+            "dataTarget": "xoShrimpModal"
+        },
+        {
+            "name": "Crispy Lobster Tempura",
+            "image": "https://i.ytimg.com/vi/2tCWtcoGpCM/maxresdefault.jpg",
+            "dataTarget": "#lobsterTempuraModal"
+        }
+        
+    ]
+
+}
