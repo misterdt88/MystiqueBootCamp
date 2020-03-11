@@ -43,14 +43,236 @@
         {
             "name": "XO Jumbo Shrimp",
             "image": "https://i.pinimg.com/originals/ca/92/7b/ca927b7bd2f9930e0620af86c44ad472.jpg",
-            "dataTarget": "xoShrimpModal"
+            "dataTarget": "#xoShrimpModal"
         },
         {
             "name": "Crispy Lobster Tempura",
             "image": "https://i.ytimg.com/vi/2tCWtcoGpCM/maxresdefault.jpg",
             "dataTarget": "#lobsterTempuraModal"
         }
-        
+
+    ],
+    "soupsAndSalads": [
+        {
+            "name": "Miso Soup",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#misoSoupModal"
+        },
+        {
+            "name": "Hot N Sour Soup",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#hotNSourSoupModal"
+        },
+        {
+            "name": "Chicken Ramen",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#ramenModal"
+        },
+        {
+            "name": "Avocado Salad",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#avoSaladModal"
+        },
+        {
+            "name": "Endive Salad",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#endiveModal"
+        },
+        {
+            "name": "Japanese Seaweed Salad",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#seaweedModal"
+        }
+    ],
+    "Robata": [
+        {
+            "name": "Chicken Wing",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#wingROModal"
+        },
+        {
+            "name": "Pork Belly",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#bellyROModal"
+        },
+        {
+            "name": "Scallop",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#scallopROModal"
+        },
+        {
+            "name": "Tako",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#takoROModal"
+        },
+        {
+            "name": "Duck Meatball",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#duckROModal"
+        },
+        {
+            "name": "Tiger Prawn",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#prawnROModal"
+        },
+        {
+            "name": "Chicken Skin",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#skinROModal"
+        },
+        {
+            "name": "Charred Cauliflower",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#flowerROModal"
+        },
+        {
+            "name": "NY Strip",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#stripROModal"
+        },
+        {
+            "name": "Avocado Bomb",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#avoROModal"
+        }
+    ],
+    "Raw": [
+        {
+            "name": "Scallop Ceviche",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#cevicheModal"
+        },
+        {
+            "name": "Salmon Tataki",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#tatakiModal"
+        },
+        {
+            "name": "Shimemono",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#shimemonoModal"
+        },
+        {
+            "name": "Tuna Tartare",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#tartareModal"
+        },
+        {
+            "name": "Poke",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#pokeModal"
+        },
+        {
+            "name": "Tuna Rice Bites",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#riceBitesModal"
+        },
+        {
+            "name": "Nigiri Platter",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#nigiriPlatterModal"
+        },
+        {
+            "name": "Sashimi Platter",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#sashimiPlatterModal"
+        }
+    ],
+    "Entrees": [
+        {
+            "name": "Ora King Salmon",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#salmonMainModal"
+        },
+        {
+            "name": "Miso Soy Cod",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#misoCodModal"
+        },
+        {
+            "name": "Sesame Beef",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#sesameBeefModal"
+        },
+        {
+            "name": "Sa Cha Hot Pot",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#saChaModal"
+        },
+        {
+            "name": "Pork Shoulder Steak",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#shoulderModal"
+        },
+        {
+            "name": "Tik Tok Chicken",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#tikTokModal"
+        },
+        {
+            "name": "Korean BBQ NY Strip",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#koreanModal"
+        },
+        {
+            "name": "Dirty Duck Fried Rice",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#duckRiceModal"
+        },
+        {
+            "name": "House Fried Rice",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#houseRiceModal"
+        },
+        {
+            "name": "Singapore Street Noodle",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#singaporeModal"
+        },
+        {
+            "name": "Mentaiko Carbonara",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#carbonaraModal"
+        },
+        {
+            "name": "Fresh Lo Mein",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#loMeinModal"
+        }
+    ],
+    "largFormat": [
+        {
+            "name": "Smoked Tonkatsu Short Rib",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#tonkatsuModal"
+        },
+        {
+            "name": "American Wagyu Ishiyaki",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#ishiyakiModal"
+        },
+        {
+            "name": "Japanese Fried Chicken",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#wholeChickenModal"
+        },
+        {
+            "name": "Szechuan Glazed Duck",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#duckModal"
+        }
+    ],
+    "Wagyu": [
+        {
+            "name": "A5 Wagyu NY Strip",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#a5Modal"
+        },
+        {
+            "name": "Dry Aged Wagyu Tomahawk",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "dataTarget": "#tomahawkModal"
+        }
     ]
 
 }

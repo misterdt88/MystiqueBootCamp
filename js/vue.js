@@ -1,9 +1,9 @@
-var app = new Vue({
-    el: '#app',
-    data: {
-        menuSection: 'Appetizers',
-        appetizers: []
-    },
+//var app = new Vue({
+//    el: '#app',
+//    data: {
+//        menuSection: 'Appetizers',
+//        appetizers: []
+//    },
 
 //    created() {
 //        fetch('appetizers.json')
