@@ -84,7 +84,7 @@
             "dataTarget": "#seaweedModal"
         }
     ],
-    "Robata": [
+    "robatas": [
         {
             "name": "Chicken Wing",
             "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
@@ -136,7 +136,7 @@
             "dataTarget": "#avoROModal"
         }
     ],
-    "Raw": [
+    "raws": [
         {
             "name": "Scallop Ceviche",
             "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
@@ -166,7 +166,107 @@
             "name": "Tuna Rice Bites",
             "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
             "dataTarget": "#riceBitesModal"
+        }
+    ],
+    "makis": [
+        {
+            "name": "Spicy Tuna",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Tuna, Chili Aioli, Scallion",
+            "label": "headingEight",
+            "dataTarget": "#collapseEight",
+            "controls": "collapseEight"
         },
+        {
+            "name": "Negi Toro",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Fatty Tuna, Shiso Leaf, Scallion, Fresh Wasabi",
+            "label": "headingNine",
+            "dataTarget": "#collapseNine",
+            "controls": "collapseNine"
+        },
+        {
+            "name": "Tekka",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Bluefin Tuna, Shiso Leaf, Scallion, Fresh Wasabi",
+            "label": "headingTen",
+            "dataTarget": "#collapseTen",
+            "controls": "collapseTen"
+        },
+        {
+            "name": "King Salmon",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "King Salmon, Avocado, Truffle Oil",
+            "label": "headingEleven",
+            "dataTarget": "#collapseEleven",
+            "controls": "collapseEleven"
+        },
+        {
+            "name": "Soft Shell Crab",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Fried Softs Shell Crab, Chili Aioli, Scallion, Avocado, Tobiko",
+            "label": "headingTwelve",
+            "dataTarget": "#collapseTwelve",
+            "controls": "collapseTwelve"
+        },
+        {
+            "name": "California",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Snow Crab, kanikama, avocado, cucumber",
+            "label": "headingThirteen",
+            "dataTarget": "#collapseThirteen",
+            "controls": "collapseThirteen"
+        },
+        {
+            "name": "Spicy Yellowtail & Scallion",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Yellowtail, Chili Aioli, Scallion",
+            "label": "headingFourteen",
+            "dataTarget": "#collapseFourteen",
+            "controls": "collapseFourteen"
+        },
+        {
+            "name": "Shrimp Tempura",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Shrimp Tempura, Kanpyo, Avocado, Tobiko, Chili Aioli",
+            "label": "headingFifteen",
+            "dataTarget": "#collapseFifteen",
+            "controls": "collapseFifteen"
+        },
+        {
+            "name": "Eel Avocado",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Eel and avocado",
+            "label": "headingSixteen",
+            "dataTarget": "#collapseSixteen",
+            "controls": "collapseSixteen"
+        },
+        {
+            "name": "Eel Cucumber",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Eel and Cucumber",
+            "label": "headingSeventeen",
+            "dataTarget": "#collapseSeventeen",
+            "controls": "collapseSeventeen"
+        },
+        {
+            "name": "Spicy Salmon",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "King Salmon, Avocado, chili aioli, togarashi",
+            "label": "headingEighteen",
+            "dataTarget": "#collapseEighteen",
+            "controls": "collapseEighteen"
+        },
+        {
+            "name": "Rainbow",
+            "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
+            "description": "Tuna, Salmon, Hamachi, White Fish, Avocado, Snow Crab, Shrimp, Cucumber",
+            "label": "headingNineteen",
+            "dataTarget": "#collapseNineteen",
+            "controls": "collapseNineteen"
+        }
+    ],
+    "combinations": [
         {
             "name": "Nigiri Platter",
             "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
@@ -178,7 +278,7 @@
             "dataTarget": "#sashimiPlatterModal"
         }
     ],
-    "Entrees": [
+    "entrees": [
         {
             "name": "Ora King Salmon",
             "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
@@ -262,7 +362,7 @@
             "dataTarget": "#duckModal"
         }
     ],
-    "Wagyu": [
+    "wagyu": [
         {
             "name": "A5 Wagyu NY Strip",
             "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/12/5/0/FNK_Blistered-Shoshito-Peppers-with-Browned-Butter-Lemon-and-Parmesan_s4x3.jpg.rend.hgtvcom.826.620.suffix/1417805621034.jpeg",
@@ -274,5 +374,4 @@
             "dataTarget": "#tomahawkModal"
         }
     ]
-
 }

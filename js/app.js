@@ -2,28 +2,34 @@ var app = new Vue({
     el: '#dataBox',
     data: {
         appetizers: [],
-        soupsAndSalads: []
+        soupsAndSalads: [],
+        robatas: [],
+        raws: [],
+        makis: []
     },
     methods: {
-//        proveButtonWorks(appetizer) {
-//            console.log('This Works', appetizer.name);
-        }
-    ,
+        //        proveButtonWorks(appetizer) {
+        //            console.log('This Works', appetizer.name);
+    },
     created() {
         fetch('./js/appetizers.json')
             .then((response) => {
                 return response.json();
             })
             .then((myJson) => {
-            
+
                 // console.log(myJson);    
-            
+
                 this.appetizers = myJson.appetizers;
                 this.soupsAndSalads = myJson.soupsAndSalads;
-                
-//                for (let i = 0; i < myJson.appetizers.length; i++) {
-//                    createAppetizerData(myJson.appetizers[i]);
-//                }
+                this.robatas = myJson.robatas;
+                this.raws = myJson.raws;
+                this.makis = myJson.makis;
+
+
+                //                for (let i = 0; i < myJson.appetizers.length; i++) {
+                //                    createAppetizerData(myJson.appetizers[i]);
+                //                }
             });
     }
 });
