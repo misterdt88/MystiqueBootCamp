@@ -400,283 +400,21 @@
                 <div class="card-wrapper">
 
                     <div class="flashcard3" id="accordion3">
-                        <div class="card">
-                            <div class="card-header" id="headingTwenty">
+                        
+                        <div v-for="nigiri in nigiris" class="card">
+                            <div class="card-header" :id="nigiri.label">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
-                                        Unagi
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" :data-target="nigiri.dataTarget" aria-expanded="false" :aria-controls="nigiri.controls">
+                                        {{ nigiri.name }}
                                     </button>
                                 </h5>
                             </div>
-
-                            <div id="collapse" class="collapse" aria-labelledby="headingTwenty" data-parent="#accordion3">
+                            <div :id="nigiri.controls" class="collapse" :aria-labelledby="nigiri.label" data-parent="#accordion3">
                                 <div class="card-body">
-                                    Freshwater Eel
+                                    {{ nigiri.description }}
                                 </div>
                             </div>
                         </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading21">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
-                                        Hotate
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse21" class="collapse" aria-labelledby="heading21" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Hokkaido Scallop
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading22">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
-                                        Sake
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse22" class="collapse" aria-labelledby="heading22" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Salmon
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading23">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
-                                        Ikura
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse23" class="collapse" aria-labelledby="heading23" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Salmon Roe
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading24">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
-                                        Maguro
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse24" class="collapse" aria-labelledby="heading24" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Tuna
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading25">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
-                                        Hamachi
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse25" class="collapse" aria-labelledby="heading25" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Yellowtail
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-                        <div class="card">
-                            <div class="card-header" id="heading27">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse27" aria-expanded="false" aria-controls="collapse27">
-                                        Oh Toro
-                                    </button>
-                                </h5>
-                            </div>
-
-                            <div id="collapse27" class="collapse" aria-labelledby="heading27" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Bluefin Belly
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading28">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse28" aria-expanded="false" aria-controls="collapse28">
-                                        Chu Toro
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse28" class="collapse" aria-labelledby="heading28" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Medium Fatty Tuna
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading29">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse29" aria-expanded="false" aria-controls="collapse29">
-                                        Uni
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse29" class="collapse" aria-labelledby="heading29" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Sea Urchin
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading30">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse30" aria-expanded="false" aria-controls="collapse30">
-                                        Kanpachi
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse30" class="collapse" aria-labelledby="heading30" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Amberjack
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading31">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse31" aria-expanded="false" aria-controls="collapse31">
-                                        Amaebi
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse31" class="collapse" aria-labelledby="heading31" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Sweet Shrimp
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading32">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse32" aria-expanded="false" aria-controls="collapse32">
-                                        Kinmedai
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse32" class="collapse" aria-labelledby="heading32" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Golden Big Eye Snapper
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading33">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse33" aria-expanded="false" aria-controls="collapse33">
-                                        Shima Aji
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse33" class="collapse" aria-labelledby="heading33" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Stripe Jack
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading34">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse34" aria-expanded="false" aria-controls="collapse34">
-                                        Aji
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse34" class="collapse" aria-labelledby="heading34" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Jackfish
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading35">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse35" aria-expanded="false" aria-controls="collapse35">
-                                        Tai
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse35" class="collapse" aria-labelledby="heading35" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Sea Bream
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading36">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse36" aria-expanded="false" aria-controls="collapse36">
-                                        Shame Saba
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse36" class="collapse" aria-labelledby="heading36" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Cured Mackerel
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading37">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse37" aria-expanded="false" aria-controls="collapse37">
-                                        Tamago
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse37" class="collapse" aria-labelledby="heading37" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Sweet Egg Omolet
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="heading38">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse38" aria-expanded="false" aria-controls="collapse38">
-                                        Japanese Uni
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapse38" class="collapse" aria-labelledby="heading38" data-parent="#accordion3">
-                                <div class="card-body">
-                                    Hokkaido Sea Urchin
-                                </div>
-                            </div>
-                        </div>
-
-
 
                     </div>
 
@@ -691,25 +429,16 @@
                 </div>
                 <div class="card-wrapper">
 
-                    <div class="card section5" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div v-for="combination in combinations" class="card section5" style="width: 18rem;">
+                        <img class="card-img-top" :src="combination.image" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text"><b>Nigiri Platter</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#nigiriPlatterModal">
+                            <p class="card-text"><b>{{ combination.name }}</b></p>
+                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" :data-target="combination.dataTarget">
                                 Description
                             </button>
                         </div>
                     </div>
 
-                    <div class="card section5" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Sashimi Platter</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#sashimiPlatterModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -767,133 +496,18 @@
                 <div class="robataWrapper">
                     <h2>Mains</h2>
                 </div>
+                
                 <div class="card-wrapper">
 
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div v-for="entree in entrees" class="card section6" style="width: 18rem;">
+                        <img class="card-img-top" :src="entree.image" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text"><b>Ora King Salmon</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#salmonMainModal">
+                            <p class="card-text"><b>{{ entree.name }}</b></p>
+                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" :data-target="entree.dataTarget">
                                 Description
                             </button>
                         </div>
                     </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Miso Soy Cod</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#misoCodModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Sesame Beef</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#sesameBeefModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Sa Cha 'Hot Pot'</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#saChaModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Pork Shoulder Steak</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#shoulderModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Tik Tok Chicken</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#tikTokModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Korean BBQ NY Strip</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#koreanModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Dirty Duck Fried Rice</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#duckRiceModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>House Fried Rice</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#houseRiceModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Singapore Street Noodles</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#singaporeModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Mentaiko Carbonara</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#carbonaraModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section6" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Fresh Lo Mein</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#loMeinModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-
-
-
-
-
 
                 </div>
 
@@ -901,79 +515,33 @@
                     <h2>Large Formats</h2>
                 </div>
                 <div class="card-wrapper">
-                    <div class="card section7" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div v-for="largeFormat in largeFormats" class="card section7" style="width: 18rem;">
+                        <img class="card-img-top" :src="largeFormat.image" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text"><b>Smoked Tonkatsu Short Rib</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#tonkatsuModal">
+                            <p class="card-text"><b>{{ largeFormat.name }}</b></p>
+                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" :data-target="largeFormat.dataTarget">
                                 Description
                             </button>
                         </div>
                     </div>
-
-                    <div class="card section7" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>American Wagyu Ishiyaki</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#ishiyakiModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section7" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Japanese Fried Chicken</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#wholeChickenModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card section7" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Szechuan Glazed Duck</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#duckModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-
-
 
                 </div>
 
                 <div class="robataWrapper">
                     <h2>Wagyu Cuts</h2>
                 </div>
+                
                 <div class="card-wrapper">
 
-                    <div class="card section7" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                    <div v-for="wagyu in wagyus" class="card section7" style="width: 18rem;">
+                        <img class="card-img-top" :src="wagyu.image" alt="Card image cap">
                         <div class="card-body">
-                            <p class="card-text"><b>A5 - New York Strip - $30 per oz</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#a5Modal">
+                            <p class="card-text"><b>{{ wagyu.name }}</b></p>
+                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" :data-target="wagyu.dataTarget">
                                 Description
                             </button>
                         </div>
                     </div>
-
-                    <div class="card section7" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text"><b>Dry-Aged Tomahawk ~2 lbs $140</b></p>
-                            <button type="button appmodal" class="btn btn-primary" data-toggle="modal" data-target="#tomahawkModal">
-                                Description
-                            </button>
-                        </div>
-                    </div>
-
-
-
-
 
                 </div>
 
@@ -981,68 +549,29 @@
                     <h2>Cocktails </h2>
                 </div>
                 <div class="card-wrapper cocktails">
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Lychee Martini</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#lycheeRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#lycheeGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse" id="lycheeRecipe">
-                                        <div class="card card-body2">
-                                            <b>2 oz Grey Goose<br>
-                                                1 oz Lychee<br>
-                                                Float Chandon Rose<br>
-                                                Martini Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse" id="lycheeGarnish">
-                                        <div class="card card-body2">
-                                            <b>Lychee Fruit</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="cocktail-card">
+                    <div v-for="cocktail in cocktails" class="cocktail-card">
                         <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <img class="card-img-top" :src="cocktail.image" alt="Card image cap">
                         </div>
                         <div class="script-box">
-                            <p class="card-text"><b>The Butterfly Effect</b></p>
+                            <p class="card-text"><b>{{ cocktail.name }}</b></p>
                             <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#butterflyRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#butterflyGarnish" aria-expanded="false" aria-controls="multiCollapseExample4">Garnish</button>
+                                <a class="btn btn-primary" data-toggle="collapse" :href="cocktail.recipeTarget" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Recipe</a>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" :data-target="cocktail.garnishTarget" aria-expanded="false" aria-controls="multiCollapseExample4">Garnish</button>
                                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse2" aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Both</button>
                             </p>
                             <div class="row">
                                 <div class="col">
-                                    <div class="collapse multi-collapse2" id="butterflyRecipe">
+                                    <div class="collapse multi-collapse2" :id="cocktail.recipeRef">
                                         <div class="card card-body2">
-                                            <b>1.5 oz Absolut Pear<br>
-                                                0.5 oz Absolut Elyx<br>
-                                                0.75 oz Saint Germaine<br>
-                                                1 oz Kiwi Puree<br>
-                                                4 Basil Leaves<br>
-                                                Squeeze of Lemon<br>
-                                                Martini Glass
+                                            <b>{{ cocktail.recipe }}
                                             </b>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="collapse multi-collapse2" id="butterflyGarnish">
+                                    <div class="collapse multi-collapse2" :id="cocktail.garnishRef">
                                         <div class="card card-body2">
                                             <b>Micro Flowers</b>
                                         </div>
@@ -1052,559 +581,6 @@
                         </div>
                     </div>
 
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Cucumber Basil Martini</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#cucumberRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cucumberGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse3" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse3" id="cucumberRecipe">
-                                        <div class="card card-body2">
-                                            <b>2 oz Hendricks<br>
-                                                1.5 oz Lime Agave<br>
-                                                4 Cucumber Slices<br>
-                                                4 Basil Leave<br>
-                                                White Pepper<br>
-                                                Muddled and Strained<br>
-                                                Martini Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse3" id="cucumberGarnish">
-                                        <div class="card card-body2">
-                                            <b>Cucumber and Basil</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>The Secret Garden</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#gardenRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#gardenGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse4" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse4" id="gardenRecipe">
-                                        <div class="card card-body2">
-                                            <b>0.75 oz Monkey Shoulder<br>
-                                                1.5 oz Belvedere Peach<br>
-                                                0.75 oz Mango<br>
-                                                2 Dashes Orange Bitters<br>
-                                                Chandon Brut Float<br>
-                                                Martini Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse4" id="gardenGarnish">
-                                        <div class="card card-body2">
-                                            <b>Fortune Cookie</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Yuzu Saketini</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#saketiniRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#saketiniGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse5" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse5" id="saketiniRecipe">
-                                        <div class="card card-body2">
-                                            <b>1.5 oz Goose Citron<br>
-                                                0.5 oz Triple Sec<br>
-                                                0.5 oz Sake<br>
-                                                1 oz Yuzu Sour<br>
-                                                Lemon Squeeze<br>
-                                                Martini Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse5" id="saketiniGarnish">
-                                        <div class="card card-body2">
-                                            <b>Half Brown Sugar Rim<br>Orchid</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>The Encore</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#encoreRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#encoreGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse6" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse6" id="encoreRecipe">
-                                        <div class="card card-body2">
-                                            <b>2.5 oz Hennessy VSOP<br>
-                                                1 oz Pineapple Brown Butter Puree<br>
-                                                3 Lemon Squeezes<br>
-                                                Martini Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse6" id="encoreGarnish">
-                                        <div class="card card-body2">
-                                            <b>Pina Leaf<br>
-                                                Pineapple<br>
-                                                Gold Flakes</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Classic Mai Tai</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#maitaiRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#maitaiGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse7" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse7" id="maitaiRecipe">
-                                        <div class="card card-body2">
-                                            <b>1.25 oz Mai Tai Mix<br>
-                                                0.5 oz Almond<br>
-                                                0.5 oz Lime Agave<br>
-                                                0.5 oz Pineapple<br>
-                                                0.75 oz Bacardi Black<br>
-                                                Rocks Glass
-
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse7" id="maitaiGarnish">
-                                        <div class="card card-body2">
-                                            <b>Flag:<br>Orange<br>Cherry<br>Lime
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Peach & Orange Blossom Mai Tai</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#pobmtRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pobmtGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse8" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse8" id="pobmtRecipe">
-                                        <div class="card card-body2">
-                                            <b>1.25 oz KO Peach & Orange Blossom<br>
-                                                0.25 oz Aperol<br>
-                                                0.5 oz Lime Agave<br>
-                                                0.5 oz Pineapple<br>
-                                                0.75 oz Grand Marnier<br>
-                                                Rocks Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse8" id="pobmtGarnish">
-                                        <div class="card card-body2">
-                                            <b>Flag:<br>Orange<br>Cherry</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Mystique Mule</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#muleRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#muleGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse9" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse9" id="muleRecipe">
-                                        <div class="card card-body2">
-                                            <b>2 oz Tito's<br>
-                                                0.5 oz Yuzu Sour<br>
-                                                0.5 oz Pineapple Puree<br>
-                                                Top w/ Ginger Beer &<br>
-                                                Soda Water<br>
-                                                Copper Mug
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse9" id="muleGarnish">
-                                        <div class="card card-body2">
-                                            <b>Lime Wedge</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Komodo Dragon</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#dragonRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#dragonGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse10" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse10" id="dragonRecipe">
-                                        <div class="card card-body2">
-                                            <b>2 oz Chili Infused Avion Silver<br>
-                                                0.5 oz Triple Sec<br>
-                                                0.5 oz Lime Agave<br>
-                                                0.5 oz Mango Puree<br>
-                                                Rocks Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse10" id="dragonGarnish">
-                                        <div class="card card-body2">
-                                            <b>Togarashi Black Salt Rim<br>
-                                                Lime Wedge</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Crouching Tiger</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#tigerRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tigerGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse11" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse11" id="tigerRecipe">
-                                        <div class="card card-body2">
-                                            <b>1.5 oz Casamigos Blanco<br>
-                                                0.5 oz Triple Sec<br>
-                                                1 oz Lime Agave<br>
-                                                1 oz Tamarind Puree<br>
-                                                Highball
-
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse11" id="tigerGarnish">
-                                        <div class="card card-body2">
-                                            <b>Lime Wedge<br>
-                                                Orchid</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Tamarind in Tokyo</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#tokyoRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tokyoGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse12" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse12" id="tokyoRecipe">
-                                        <div class="card card-body2">
-                                            <b>2 oz Maker's Mark<br>
-                                                1 oz Lime Agave<br>
-                                                1 oz Tamarind Puree<br>
-                                                2 Dash Bitters<br>
-                                                Rocks Glass
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse12" id="tokyoGarnish">
-                                        <div class="card card-body2">
-                                            <b>Lychee Fruit</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Pikachu Punch</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#pikachuRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pikachuGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse13" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse13" id="pikachuRecipe">
-                                        <div class="card card-body2">
-                                            <b>1 oz Ciroc Apple<br>
-                                                0.5 oz Soju<br>
-                                                0.25 oz Kiwi Puree<br>
-                                                0.5 oz Barrows Ginger<br>
-                                                Squeeze 3 Limes<br>
-                                                Topped w/ Club Soda<br>
-                                                Pikachu Mug
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse13" id="pikachuGarnish">
-                                        <div class="card card-body2">
-                                            <b>Mint Sprig</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Sakura Sangria</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#sakuraRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sakuraGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse14" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse14" id="sakuraRecipe">
-                                        <div class="card card-body2">
-                                            <b>Gold Apricot Vodka<br>
-                                                Absolut Mandarin<br>
-                                                Pinot Grigio<br>
-                                                Sake<br>
-                                                Fresh Tangerine<br>
-                                                Thai Basil<br>
-                                                Ginger
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse14" id="sakuraGarnish">
-                                        <div class="card card-body2">
-                                            <b>Lemon Wedge<br>
-                                                Orange Slice<br>
-                                                Basil Leaf<br><br>
-                                                Carafe:<br>
-                                                3 Lemons Squeezed<br>
-                                                3 Oranges Squeezed<br>
-                                                4 Basil Leaves</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Coconut Cartel</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#cartelRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cartelGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse15" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>16
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse15" id="cartelRecipe">
-                                        <div class="card card-body2">
-                                            <b>1.5 oz Bacardi Coconut<br>
-                                                1.5 oz Bacardi 8<br>
-                                                Yuzu Sour<br>
-                                                Pineapple<br>
-                                                OJ
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse15" id="cartelGarnish">
-                                        <div class="card card-body2">
-                                            <b>Orchid<br>
-                                                Pina Leaf</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Sea Spice</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#seaspiceRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#seaspiceGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse16" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse16" id="seaspiceRecipe">
-                                        <div class="card card-body2">
-                                            <b>4 oz Kraken Rum<br>
-                                                2 oz Bacardi Mango<br>
-                                                Pineapple<br>
-                                                Mango Puree<br>
-                                                1 Can Tropical RedBull<br>
-                                                Float 2 oz Kraken 90
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse16" id="seaspiceGarnish">
-                                        <div class="card card-body2">
-                                            <b>Dry Ice<br>
-                                                3 Oranges<br>
-                                                6 Cherries</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cocktail-card">
-                        <div class="picbox">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                        </div>
-                        <div class="script-box">
-                            <p class="card-text"><b>Sir Inks A Lot</b></p>
-                            <p class="cocktail-btns">
-                                <a class="btn btn-primary" data-toggle="collapse" href="#inkRecipe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Recipe</a>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#inkGarnish" aria-expanded="false" aria-controls="multiCollapseExample2">Garnish</button>
-                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse17" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Both</button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse17" id="inkRecipe">
-                                        <div class="card card-body2">
-                                            <b>8 oz Grey Goose Citron<br>
-                                                4 oz Grey Goose<br>
-                                                4 oz LeJay Cassis<br>
-                                                Lemonade<br>
-                                                Yuzu Sour<br>
-                                                4 oz Moet Float
-                                            </b>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse17" id="inkGarnish">
-                                        <div class="card card-body2">
-                                            <b>Lime Wedges<br>
-                                                Orchids</b>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </div>

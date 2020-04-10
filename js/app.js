@@ -5,7 +5,13 @@ var app = new Vue({
         soupsAndSalads: [],
         robatas: [],
         raws: [],
-        makis: []
+        makis: [],
+        nigiris: [],
+        combinations: [],
+        entrees: [],
+        largeFormats: [],
+        wagyus: [],
+        cocktails: []
     },
     methods: {
         //        proveButtonWorks(appetizer) {
@@ -25,7 +31,12 @@ var app = new Vue({
                 this.robatas = myJson.robatas;
                 this.raws = myJson.raws;
                 this.makis = myJson.makis;
-
+                this.nigiris = myJson.nigiris;
+                this.combinations = myJson.combinations;
+                this.entrees = myJson.entrees;
+                this.largeFormats = myJson.largeFormats;
+                this.wagyus = myJson.wagyus;
+                this.cocktails = myJson.cocktails;
 
                 //                for (let i = 0; i < myJson.appetizers.length; i++) {
                 //                    createAppetizerData(myJson.appetizers[i]);
